@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ThymeleafdemoApplication<thymeleafdemo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.luv2code.springboot.thymeleafdemo.ThymeleafdemoApplication",
+            "projectName": "thymeleafdemo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-crmapplication<thymeleafdemo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.ayaancode.springboot.mycrmcrudapp.crmapplication",
+            "projectName": "thymeleafdemo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
